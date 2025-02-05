@@ -75,12 +75,15 @@ img {
 .btn-wrap{
     width: 250px;
 }
-.btn-wrap a {
+.btn-wrap .btn-order {
     display: block;
     border-radius: 5px;
     background-color: #ffb400;
     color: #303030;
     padding: 25px 30px;
+}
+.btn-animation{
+    animation: 1s pulse infinite;
 }
 .container-width {
     width: 90%;
@@ -199,7 +202,7 @@ section {
     .btn-wrap{
         width: 200px;
     }
-    .btn-wrap a {
+    .btn-wrap .btn-order {
         padding: 20px 25px;
     }
     .foot-logo{

@@ -9,7 +9,7 @@ $page_title = 'Home';
     <main class="bg-white">
         <section class="section1 section1-bg">
             <div class="container-fluid container-width contain-center">
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center" data-aos="fade-up">
                     <div class="col-12">
                         <div class="logo">
                             <img class="logo-img" src="img/logo.svg">
@@ -27,7 +27,7 @@ $page_title = 'Home';
                     </div>
                     <div class="col-12">
                         <div class="btn-wrap text-center">
-                            <a href="#" class="">ORDER NOW</a>
+                            <a href="#" class="btn-animation btn-order">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ $page_title = 'Home';
                             <div class="d-flex flex-column flex-md-row justify-content-center align-items-stretch">
                                 <div class="col-12 col-md-4 pt-4 pb-2 py-md-0">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
-                                        <div class="col-12">
+                                        <div class="col-12" data-aos="fade-down">
                                             <div class="section2-item-wrap text-center">
                                                 <div class="items-img items-1">
                                                     <img src="img/section1-item1.png">
@@ -68,7 +68,7 @@ $page_title = 'Home';
                                 </div>
                                 <div class="col-12 col-md-4 py-2 py-md-0">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
-                                        <div class="col-12">
+                                        <div class="col-12" data-aos="fade-down">
                                             <div class="section2-item-wrap text-center">
                                                 <div class="items-img items-2">
                                                     <img src="img/section1-item2.png">
@@ -85,7 +85,7 @@ $page_title = 'Home';
                                 </div>
                                 <div class="col-12 col-md-4 py-2 py-md-0">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
-                                        <div class="col-12">
+                                        <div class="col-12" data-aos="fade-down">
                                             <div class="section2-item-wrap text-center">
                                                 <div class="items-img items-3">
                                                     <img src="img/section1-item3.png">
@@ -142,7 +142,7 @@ $page_title = 'Home';
         <section class="section4">
             <div class="container-fluid container-width">
                 <div class="row justify-content-center align-items-stretch">
-                    <div class="col-12 col-md-4 text-center">
+                    <div class="col-12 col-md-4 text-center" data-aos="fade-up">
                         <div class="section4-feature pb-5 pb-md-0">
                             <div class="feature-img pb-4 pb-xxl-5">
                                 <img src="img/feature1.jpg">
@@ -155,7 +155,7 @@ $page_title = 'Home';
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 text-center">
+                    <div class="col-12 col-md-4 text-center" data-aos="fade-up">
                         <div class="section4-feature pb-5 pb-md-0">
                             <div class="feature-img pb-4 pb-xxl-5">
                                 <img src="img/feature2.jpg">
@@ -168,7 +168,7 @@ $page_title = 'Home';
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 text-center">
+                    <div class="col-12 col-md-4 text-center" data-aos="fade-up">
                         <div class="section4-feature">
                             <div class="feature-img pb-4 pb-xxl-5">
                                 <img src="img/feature3.jpeg">
@@ -187,7 +187,7 @@ $page_title = 'Home';
         <section class="section5">
             <div class="container-fluid container-width">
                 <div class="row justify-content-between align-items-center">
-                    <div class="col-12 col-md-6 col-lg-5">
+                    <div class="col-12 col-md-6 col-lg-5" data-aos="fade-right">
                         <div class="section5-img d-none d-md-block">
                             <img src="img/information.jpg">
                         </div>
@@ -225,7 +225,7 @@ $page_title = 'Home';
                     </div>
                     <div class="col-12">
                         <div class="btn-wrap text-center mx-auto">
-                            <a href="#" class="">ORDER NOW</a>
+                            <a href="#" class="btn-animation btn-order">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
