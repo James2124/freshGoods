@@ -12,7 +12,7 @@ $page_title = 'Home';
                 <div class="row justify-content-center align-items-center" data-aos="fade-up">
                     <div class="col-12">
                         <div class="logo">
-                            <img class="logo-img" src="img/logo.svg">
+                            <img class="logo-img" src="img/landing2-logo.svg">
                         </div>
                     </div>
                     <div class="col-12 py-4 py-xxl-5">
@@ -27,7 +27,7 @@ $page_title = 'Home';
                     </div>
                     <div class="col-12">
                         <div class="btn-wrap text-center">
-                            <a href="#" class="btn-animation btn-order">ORDER NOW</a>
+                            <a href="order2.php" class="btn-animation btn-order">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ $page_title = 'Home';
                                         <div class="col-12" data-aos="fade-down">
                                             <div class="section2-item-wrap text-center">
                                                 <div class="items-img items-1">
-                                                    <img src="img/section1-item1.png">
+                                                    <img src="img/landing2-section1-item1.png">
                                                 </div>
                                                 <div class="item-title pt-4 pb-3">
                                                     <p class="fw-bold font-20 text-mont">Benefit 1</p>
@@ -71,7 +71,7 @@ $page_title = 'Home';
                                         <div class="col-12" data-aos="fade-down">
                                             <div class="section2-item-wrap text-center">
                                                 <div class="items-img items-2">
-                                                    <img src="img/section1-item2.png">
+                                                    <img src="img/landing2-section1-item2.png">
                                                 </div>
                                                 <div class="item-title pt-4 pb-3">
                                                     <p class="fw-bold font-20 text-mont">Benefit 2</p>
@@ -88,7 +88,7 @@ $page_title = 'Home';
                                         <div class="col-12" data-aos="fade-down">
                                             <div class="section2-item-wrap text-center">
                                                 <div class="items-img items-3">
-                                                    <img src="img/section1-item3.png">
+                                                    <img src="img/landing2-section1-item3.png">
                                                 </div>
                                                 <div class="item-title pt-4 pb-3">
                                                     <p class="fw-bold font-20 text-mont">Benefit 3</p>
@@ -119,21 +119,69 @@ $page_title = 'Home';
                             <p class="text-pt">“</p>
                         </div>
                     </div>
-                    <div class="col-12 pb-4 pb-xxl-5">
-                        <div class="section3-content">
-                            <h4 class="text-pt text-white">Share a real testimonial that hits some of your benefits (but isn’t too sales-y).</h4>
-                        </div>
-                    </div>
-                    <div class="col-12 pt-4 pt-md-5">
-                        <div class="section3-user pb-3">
-                            <img src="img/customer1.png">
-                        </div>
-                        <div class="section3-detail">
-                            <p class="text-white section3-username">REAL NAME</p>
-                            <p class="text-white section3-location">location</p>
-                            <div class="section3-star">
-                                <img src="img/customer-star.svg">
+                    <div class="col-12">
+                        <div class="swiper myClientSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="col-12 pb-4 pb-xxl-5">
+                                        <div class="section3-content">
+                                            <h4 class="text-pt text-white">Share a real testimonial that hits some of your benefits (but isn’t too sales-y).</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 pt-4 pt-md-5">
+                                        <div class="section3-user pb-3">
+                                            <img src="img/landing2-customer1.png">
+                                        </div>
+                                        <div class="section3-detail">
+                                            <p class="text-white section3-username">REAL NAME</p>
+                                            <p class="text-white section3-location">location</p>
+                                            <div class="section3-star">
+                                                <img src="img/landing2-customer-star.svg">
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="col-12 pb-4 pb-xxl-5">
+                                        <div class="section3-content">
+                                            <h4 class="text-pt text-white">This is a cultural area which bring a lot of benefits</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 pt-4 pt-md-5">
+                                        <div class="section3-user pb-3">
+                                            <img src="img/landing2-user2.jpeg">
+                                        </div>
+                                        <div class="section3-detail">
+                                            <p class="text-white section3-username">REAL NAME</p>
+                                            <p class="text-white section3-location">location</p>
+                                            <div class="section3-star">
+                                                <img src="img/landing2-customer-star.svg">
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="col-12 pb-4 pb-xxl-5">
+                                        <div class="section3-content">
+                                            <h4 class="text-pt text-white">Well organized and good management and good for human</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 pt-4 pt-md-5">
+                                        <div class="section3-user pb-3">
+                                            <img src="img/landing2-user3.jpeg">
+                                        </div>
+                                        <div class="section3-detail">
+                                            <p class="text-white section3-username">REAL NAME</p>
+                                            <p class="text-white section3-location">location</p>
+                                            <div class="section3-star">
+                                                <img src="img/landing2-customer-star.svg">
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
                             </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                     </div>
                 </div>
@@ -145,7 +193,7 @@ $page_title = 'Home';
                     <div class="col-12 col-md-4 text-center" data-aos="fade-up">
                         <div class="section4-feature pb-5 pb-md-0">
                             <div class="feature-img pb-4 pb-xxl-5">
-                                <img src="img/feature1.jpg">
+                                <img src="img/landing2-feature1.jpg">
                             </div>
                             <div class="section4-title">
                                 <p class="fw-bold font-20 text-mont">Feature 1</p>
@@ -158,7 +206,7 @@ $page_title = 'Home';
                     <div class="col-12 col-md-4 text-center" data-aos="fade-up">
                         <div class="section4-feature pb-5 pb-md-0">
                             <div class="feature-img pb-4 pb-xxl-5">
-                                <img src="img/feature2.jpg">
+                                <img src="img/landing2-feature2.jpg">
                             </div>
                             <div class="section4-title">
                                 <p class="fw-bold font-20 text-mont">Feature 2</p>
@@ -171,7 +219,7 @@ $page_title = 'Home';
                     <div class="col-12 col-md-4 text-center" data-aos="fade-up">
                         <div class="section4-feature">
                             <div class="feature-img pb-4 pb-xxl-5">
-                                <img src="img/feature3.jpeg">
+                                <img src="img/landing2-feature3.jpeg">
                             </div>
                             <div class="section4-title">
                                 <p class="fw-bold font-20 text-mont">Feature 3</p>
@@ -189,7 +237,7 @@ $page_title = 'Home';
                 <div class="row justify-content-between align-items-center">
                     <div class="col-12 col-md-6 col-lg-5" data-aos="fade-right">
                         <div class="section5-img d-none d-md-block">
-                            <img src="img/information.jpg">
+                            <img src="img/landing2-information.jpg">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
@@ -199,7 +247,7 @@ $page_title = 'Home';
                                     <h3 class="text-mont">Some more information about your business</h3>
                                 </div>
                                 <div class="section5-img d-block d-md-none">
-                                    <img src="img/information.jpg">
+                                    <img src="img/landing2-information.jpg">
                                 </div>
                                 <div class="section5-content">
                                     <p class="font-16 text-pt">Share a little about yourself as a business owner, or maybe describe what makes your product or service unique. Give visitors one more reason to care about your offer and want to buy from you.</p>
@@ -225,7 +273,7 @@ $page_title = 'Home';
                     </div>
                     <div class="col-12">
                         <div class="btn-wrap text-center mx-auto">
-                            <a href="#" class="btn-animation btn-order">ORDER NOW</a>
+                            <a href="order.php" class="btn-animation btn-order">ORDER NOW</a>
                         </div>
                     </div>
                 </div>

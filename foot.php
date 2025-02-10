@@ -4,7 +4,7 @@
                         <div class="row justify-content-between align-items-center">
                                 <div class="col-12 col-md-3 pb-4 pb-md-0">
                                         <div class="foot-logo mx-auto mx-md-0">
-                                                <img src="img/logo.svg">
+                                                <img src="img/landing2-logo.svg">
                                         </div>
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-5">
@@ -20,4 +20,5 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>AOS.init();</script>
+        <script src="/landing2/js/style.js"></script>
 </footer>
