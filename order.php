@@ -28,7 +28,7 @@ $page_title = 'Order page';
                         </div>
                         <div class="col-12">
                             <div class="btn-wrap text-center mx-auto">
-                                <a href="/place" class="btn-animation btn-order">Place Order</a>
+                                <a href="#" class="btn-animation btn-order">Place Order</a>
                             </div>
                         </div>
                     </div>

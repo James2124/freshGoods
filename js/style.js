@@ -18,7 +18,7 @@ jQuery(document).ready(function ($) {
 
         var link = $(this).attr("href");
 
-        if (link) {
+        if (link && link.startsWith("/") || link.includes(".php")) {
             $.ajax({
                 url: link,
                 method: "HEAD",
@@ -31,6 +31,8 @@ jQuery(document).ready(function ($) {
                     }
                 }
             });
+        }else {
+            window.location.href = "maintain.php";
         }
     });
 });
